@@ -18,10 +18,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-// //     \\ \\
-// Timestamp \\
-// //  /  \\ \\
-// / 1:34:00 \ \\
-// //      \\ \\

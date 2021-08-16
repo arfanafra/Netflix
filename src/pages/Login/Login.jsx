@@ -18,7 +18,7 @@ export const Login = () => {
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Password" />
                     <button className="loginButton">Sign In</button>
-                    <span>New to Netflix?<b>Sign up now.</b></span>
+                    <span>New to Netflix? <b>Sign up now.</b></span>
                     <small>this page is protected by Google reCAPTCHA to ensure you're not a bot <b>Learn More</b></small>
                 </form>
             </div>

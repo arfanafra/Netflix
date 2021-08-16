@@ -1,4 +1,4 @@
-.login {
+.register {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 1)100%), url("img/netflix-background.jpg");
@@ -19,7 +19,7 @@
             .loginButton {
                 background-color: rgb(218, 34, 34);
                 border: none;
-                color: black;
+                color: white;
                 border-radius: 5px;
                 padding: 5px 15px;
                 font-size: 16px;
@@ -70,29 +70,29 @@
                 height: 100%;
                 border: none;
                 padding: 0 10px;
-                background-color: rgb(255, 255, 255, 0.25);
+                background-color: rgb(255, 255, 255, 1);
             }
 
             .registerButton {
                 flex: 3;
                 height: 100%;
-                background-color: rgb(218, 34, 34, 0.25);
+                background-color: rgb(218, 34, 34, 1);
                 border: none;
                 color: white;
                 font-size: 22px;
                 cursor: pointer;
             }
 
-            .input,
-            input:hover {
-                background-color: rgb(255, 255, 255, 1);
-                transition: 0.3s;
-            }
+            // .input,
+            // input:hover {
+            //     background-color: rgb(255, 255, 255, 1);
+            //     transition: 0.3s;
+            // }
 
-            .registerButton:hover {
-                background-color: rgb(218, 34, 34, 1);
-                transition: 0.3s;
-            }
+            // .registerButton:hover {
+            //     background-color: rgb(218, 34, 34, 1);
+            //     transition: 0.3s;
+            // }
         }
     }
 }
